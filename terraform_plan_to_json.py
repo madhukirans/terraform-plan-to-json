@@ -383,7 +383,7 @@ def main():
     file.close()
 
     obj = parse_stdout_to_json(output)
-
+    print (obj)
     obj1 = get_changed_resources(obj)
 
     file = open(args.output, 'w+')

@@ -1,0 +1,721 @@
+{
+  "changed_data_sources": [], 
+  "errors": [], 
+  "changed_resources": [
+    {
+      "action": "replace", 
+      "changed_attributes": {
+        "id": {
+          "new": {
+            "type": "computed"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.instance.oc1.iad.abuwcljsjds76bhlskupf3v3tnmphjlryr7wslyf4gjpojxlgaqls4fxxkga"
+          }
+        }, 
+        "availability_domain": {
+          "new": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-1"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-2"
+          }
+        }, 
+        "compartment_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }
+        }, 
+        "display_name": {
+          "new": {
+            "type": "string", 
+            "value": "madhuseelam-madhu-dev-monitoring-1001"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "madhuseelam-madhu-dev-monitoring-2001"
+          }
+        }, 
+        "extended_metadata.%": {
+          "new": {
+            "type": "string", 
+            "value": "2"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "2"
+          }
+        }, 
+        "extended_metadata.ssh_authorized_keys": {
+          "new": {
+            "type": "string", 
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrBv1lgIijrBiZzL/IQP3rLwvedZPY0iNYPnWVn0JK3Tru13RMHXRd5W83UR6vXax7bWQEVNHNX0S3PF+4GGw7d5gnxuE9LME5sPA4OVKnQ+KGAhT0YxrSO3pR4dXMKq/RAavp6WrOKIOY+MteAUOkxGeTak1sWdkWZUeuWezGd72gaA5uLFgO96xM2+7O0vJZKYy1bOWHhgS6vGr+DcKLAvWAnyvkSmwJoLgN+Q8dg2oyjkmf3khfh479eT9vh8aJvVQtGu63S5rOx6uOXajMkYv0Db/ERVlKRi373mldknMKTxmCFphI+nvUUNyuIPsG/PyQXTOwKF7LPUUEVYCz\\n"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrBv1lgIijrBiZzL/IQP3rLwvedZPY0iNYPnWVn0JK3Tru13RMHXRd5W83UR6vXax7bWQEVNHNX0S3PF+4GGw7d5gnxuE9LME5sPA4OVKnQ+KGAhT0YxrSO3pR4dXMKq/RAavp6WrOKIOY+MteAUOkxGeTak1sWdkWZUeuWezGd72gaA5uLFgO96xM2+7O0vJZKYy1bOWHhgS6vGr+DcKLAvWAnyvkSmwJoLgN+Q8dg2oyjkmf3khfh479eT9vh8aJvVQtGu63S5rOx6uOXajMkYv0Db/ERVlKRi373mldknMKTxmCFphI+nvUUNyuIPsG/PyQXTOwKF7LPUUEVYCz\\n"
+          }
+        }, 
+        "extended_metadata.tags": {
+          "new": {
+            "type": "string", 
+            "value": "group:monitoring"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "group:monitoring"
+          }
+        }, 
+        "hostname_label": {
+          "new": {
+            "type": "string", 
+            "value": "monitoring-1001"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "monitoring-2001"
+          }
+        }, 
+        "image": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.image.oc1.iad.aaaaaaaajlw3xfie2t5t52uegyhiq2npx7bqyu4uvi2zyu3w3mqayc2bxmaa"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.image.oc1.iad.aaaaaaaajlw3xfie2t5t52uegyhiq2npx7bqyu4uvi2zyu3w3mqayc2bxmaa"
+          }
+        }, 
+        "private_ip": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "10.0.20.2"
+          }
+        }, 
+        "public_ip": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "129.213.33.148"
+          }
+        }, 
+        "region": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "iad"
+          }
+        }, 
+        "shape": {
+          "new": {
+            "type": "string", 
+            "value": "VM.Standard1.2"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "VM.Standard1.2"
+          }
+        }, 
+        "state": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "RUNNING"
+          }
+        }, 
+        "subnet_id": {
+          "new": {
+            "type": "string", 
+            "value": "${module.subnet-monitoring-1.id}"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.subnet.oc1.iad.aaaaaaaawdd4fm7psj7fmvpxtxxtxfgib7pmy2cqekk7hxyzwxm5lr6a6cdq"
+          }
+        }, 
+        "time_created": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "2018-04-23 12:17:20.183 +0000 UTC"
+          }
+        }
+      }, 
+      "type": "baremetal_core_instance", 
+      "name": "monitoring-instance", 
+      "new_resource_required": true
+    }, 
+    {
+      "action": "replace", 
+      "changed_attributes": {
+        "id": {
+          "new": {
+            "type": "computed"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.volume.oc1.iad.abuwcljssvk6jdm6g7p2mytvxsqztjrwjmja6f35pvkxqujf3lork25l6aua"
+          }
+        }, 
+        "availability_domain": {
+          "new": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-1"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-2"
+          }
+        }, 
+        "compartment_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }
+        }, 
+        "display_name": {
+          "new": {
+            "type": "string", 
+            "value": "madhuseelam-madhu-dev-monitoring-volume"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "madhuseelam-madhu-dev-monitoring-volume"
+          }
+        }, 
+        "size_in_mbs": {
+          "new": {
+            "type": "string", 
+            "value": "262144"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "262144"
+          }
+        }, 
+        "state": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "AVAILABLE"
+          }
+        }, 
+        "time_created": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "2018-04-23 12:18:11.94 +0000 UTC"
+          }
+        }
+      }, 
+      "type": "module", 
+      "name": "monitoring-block-volume.baremetal_core_volume.block", 
+      "new_resource_required": true
+    }, 
+    {
+      "action": "replace", 
+      "changed_attributes": {
+        "id": {
+          "new": {
+            "type": "computed"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.volumeattachment.oc1.iad.abuwcljstifs5cgtvqb5yth47o7gkkabpycofcp4grz4juef45hr3brxk5qa"
+          }
+        }, 
+        "attachment_type": {
+          "new": {
+            "type": "string", 
+            "value": "iscsi"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "iscsi"
+          }
+        }, 
+        "availability_domain": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-2"
+          }
+        }, 
+        "chap_secret": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": ""
+          }
+        }, 
+        "chap_username": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": ""
+          }
+        }, 
+        "compartment_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }
+        }, 
+        "display_name": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "volumeattachment20180423121821"
+          }
+        }, 
+        "instance_id": {
+          "new": {
+            "type": "string", 
+            "value": "${var.instance_id}"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.instance.oc1.iad.abuwcljsjds76bhlskupf3v3tnmphjlryr7wslyf4gjpojxlgaqls4fxxkga"
+          }
+        }, 
+        "ipv4": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "169.254.2.2"
+          }
+        }, 
+        "iqn": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "iqn.2015-12.com.oracleiaas:3ed3c41f-0424-4cc3-a8d7-f971112dbcc9"
+          }
+        }, 
+        "port": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "3260"
+          }
+        }, 
+        "state": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ATTACHED"
+          }
+        }, 
+        "time_created": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "2018-04-23 12:18:21.862 +0000 UTC"
+          }
+        }, 
+        "volume_id": {
+          "new": {
+            "type": "string", 
+            "value": "${baremetal_core_volume.block.id}"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.volume.oc1.iad.abuwcljssvk6jdm6g7p2mytvxsqztjrwjmja6f35pvkxqujf3lork25l6aua"
+          }
+        }
+      }, 
+      "type": "module", 
+      "name": "monitoring-block-volume.baremetal_core_volume_attachment.attach", 
+      "new_resource_required": true
+    }, 
+    {
+      "action": "replace", 
+      "changed_attributes": {
+        "id": {
+          "new": {
+            "type": "computed"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.subnet.oc1.iad.aaaaaaaawdd4fm7psj7fmvpxtxxtxfgib7pmy2cqekk7hxyzwxm5lr6a6cdq"
+          }
+        }, 
+        "availability_domain": {
+          "new": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-1"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-2"
+          }
+        }, 
+        "cidr_block": {
+          "new": {
+            "type": "string", 
+            "value": "10.0.20.0/24"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "10.0.20.0/24"
+          }
+        }, 
+        "compartment_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }
+        }, 
+        "dhcp_options_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.dhcpoptions.oc1.iad.aaaaaaaafcuhcitxecb2s44mfsydo6yotcscgog3u65r5v5ukv5tv26aeduq"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.dhcpoptions.oc1.iad.aaaaaaaafcuhcitxecb2s44mfsydo6yotcscgog3u65r5v5ukv5tv26aeduq"
+          }
+        }, 
+        "display_name": {
+          "new": {
+            "type": "string", 
+            "value": "monitoring-ad1"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "monitoring-ad2"
+          }
+        }, 
+        "dns_label": {
+          "new": {
+            "type": "string", 
+            "value": "monitoringad1"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "monitoringad2"
+          }
+        }, 
+        "prohibit_public_ip_on_vnic": {
+          "new": {
+            "type": "string", 
+            "value": "false"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "false"
+          }
+        }, 
+        "route_table_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.routetable.oc1.iad.aaaaaaaayvjg3jzn7m226h2ahn7knlha5jmzccgbu2tc57ofmuhzhkzw3wtq"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.routetable.oc1.iad.aaaaaaaayvjg3jzn7m226h2ahn7knlha5jmzccgbu2tc57ofmuhzhkzw3wtq"
+          }
+        }, 
+        "security_list_ids.#": {
+          "new": {
+            "type": "string", 
+            "value": "1"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "1"
+          }
+        }, 
+        "security_list_ids.3917488957": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.securitylist.oc1.iad.aaaaaaaagpkqctnvxgj62kb7dcgghsgu7pc23d5asxbjn3vjd5pxjxo6qeaq"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.securitylist.oc1.iad.aaaaaaaagpkqctnvxgj62kb7dcgghsgu7pc23d5asxbjn3vjd5pxjxo6qeaq"
+          }
+        }, 
+        "state": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "AVAILABLE"
+          }
+        }, 
+        "time_created": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "2018-04-23 12:16:45.852 +0000 UTC"
+          }
+        }, 
+        "vcn_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.vcn.oc1.iad.aaaaaaaa7y5o2n5nkkz34oo3ied5npgsuopnabfopvqa6w7qwn7bzj55ttta"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.vcn.oc1.iad.aaaaaaaa7y5o2n5nkkz34oo3ied5npgsuopnabfopvqa6w7qwn7bzj55ttta"
+          }
+        }, 
+        "virtual_router_ip": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "10.0.20.1"
+          }
+        }, 
+        "virtual_router_mac": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "00:00:17:A3:0A:2D"
+          }
+        }
+      }, 
+      "type": "module", 
+      "name": "subnet-monitoring-1.baremetal_core_subnet.subnet", 
+      "new_resource_required": true
+    }, 
+    {
+      "action": "replace", 
+      "changed_attributes": {
+        "id": {
+          "new": {
+            "type": "computed"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.subnet.oc1.iad.aaaaaaaauyslqcp74bp6psdrqlrn4r3dou7ejxxpz722styttola6whgxraa"
+          }
+        }, 
+        "availability_domain": {
+          "new": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-2"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "jGnV:US-ASHBURN-AD-3"
+          }
+        }, 
+        "cidr_block": {
+          "new": {
+            "type": "string", 
+            "value": "10.0.22.0/24"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "10.0.22.0/24"
+          }
+        }, 
+        "compartment_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.compartment.oc1..aaaaaaaaoukqmttw335fk3fv6ttaw7hvuf7o6d6sofhchdmofcpe34usvkpa"
+          }
+        }, 
+        "dhcp_options_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.dhcpoptions.oc1.iad.aaaaaaaafcuhcitxecb2s44mfsydo6yotcscgog3u65r5v5ukv5tv26aeduq"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.dhcpoptions.oc1.iad.aaaaaaaafcuhcitxecb2s44mfsydo6yotcscgog3u65r5v5ukv5tv26aeduq"
+          }
+        }, 
+        "display_name": {
+          "new": {
+            "type": "string", 
+            "value": "monitoring-ad1-2"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "monitoring-ad2-2"
+          }
+        }, 
+        "dns_label": {
+          "new": {
+            "type": "string", 
+            "value": "monitoringad12"
+          }, 
+          "forcesNewResource": true, 
+          "old": {
+            "type": "string", 
+            "value": "monitoringad22"
+          }
+        }, 
+        "prohibit_public_ip_on_vnic": {
+          "new": {
+            "type": "string", 
+            "value": "false"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "false"
+          }
+        }, 
+        "route_table_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.routetable.oc1.iad.aaaaaaaayvjg3jzn7m226h2ahn7knlha5jmzccgbu2tc57ofmuhzhkzw3wtq"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.routetable.oc1.iad.aaaaaaaayvjg3jzn7m226h2ahn7knlha5jmzccgbu2tc57ofmuhzhkzw3wtq"
+          }
+        }, 
+        "security_list_ids.#": {
+          "new": {
+            "type": "string", 
+            "value": "1"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "1"
+          }
+        }, 
+        "security_list_ids.3917488957": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.securitylist.oc1.iad.aaaaaaaagpkqctnvxgj62kb7dcgghsgu7pc23d5asxbjn3vjd5pxjxo6qeaq"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.securitylist.oc1.iad.aaaaaaaagpkqctnvxgj62kb7dcgghsgu7pc23d5asxbjn3vjd5pxjxo6qeaq"
+          }
+        }, 
+        "state": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "AVAILABLE"
+          }
+        }, 
+        "time_created": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "2018-04-23 12:16:45.752 +0000 UTC"
+          }
+        }, 
+        "vcn_id": {
+          "new": {
+            "type": "string", 
+            "value": "ocid1.vcn.oc1.iad.aaaaaaaa7y5o2n5nkkz34oo3ied5npgsuopnabfopvqa6w7qwn7bzj55ttta"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "ocid1.vcn.oc1.iad.aaaaaaaa7y5o2n5nkkz34oo3ied5npgsuopnabfopvqa6w7qwn7bzj55ttta"
+          }
+        }, 
+        "virtual_router_ip": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "10.0.22.1"
+          }
+        }, 
+        "virtual_router_mac": {
+          "new": {
+            "type": "computed"
+          }, 
+          "old": {
+            "type": "string", 
+            "value": "00:00:17:A3:0A:2D"
+          }
+        }
+      }, 
+      "type": "module", 
+      "name": "subnet-monitoring-2.baremetal_core_subnet.subnet", 
+      "new_resource_required": true
+    }
+  ]
+}
