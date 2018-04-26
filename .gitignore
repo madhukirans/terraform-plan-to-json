@@ -1,6 +1,6 @@
 # IDE stuff
-.idea/
-.vscode/
+.idea/**
+.vscode/**
 *.iml
 
 
