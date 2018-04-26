@@ -1,0 +1,32 @@
+Refreshing Terraform state in-memory prior to plan...
+The refreshed state will be used to calculate this plan, but will not be
+persisted to local or remote state storage.
+
+tls_private_key.ssh: Refreshing state... (ID: 4549266471c79dfe3029f2adc32f651b86439a54)
+baremetal_core_virtual_network.CompleteVCN: Refreshing state... (ID: ocid1.vcn.oc1.iad.aaaaaaaa7y5o2n5nkkz34oo3ied5npgsuopnabfopvqa6w7qwn7bzj55ttta)
+data.baremetal_identity_availability_domains.ADs: Refreshing state...
+data.baremetal_core_images.OracleLinuxImageOCID: Refreshing state...
+baremetal_core_internet_gateway.CompleteIG: Refreshing state... (ID: ocid1.internetgateway.oc1.iad.aaaaaaaac...55etjgekv6rhh5vjxvxzu46vg6turpebnr66oa)
+baremetal_core_security_list.monitoring: Refreshing state... (ID: ocid1.securitylist.oc1.iad.aaaaaaaagpkq...b7dcgghsgu7pc23d5asxbjn3vjd5pxjxo6qeaq)
+baremetal_core_security_list.logging: Refreshing state... (ID: ocid1.securitylist.oc1.iad.aaaaaaaavhgm...uob3uza2qz3ykbs5pl6vvyfnaut765t435ubua)
+baremetal_core_route_table.RouteForComplete: Refreshing state... (ID: ocid1.routetable.oc1.iad.aaaaaaaayvjg3j...2ahn7knlha5jmzccgbu2tc57ofmuhzhkzw3wtq)
+baremetal_core_subnet.subnet: Refreshing state... (ID: ocid1.subnet.oc1.iad.aaaaaaaawdd4fm7psj...pxtxxtxfgib7pmy2cqekk7hxyzwxm5lr6a6cdq)
+baremetal_core_subnet.subnet: Refreshing state... (ID: ocid1.subnet.oc1.iad.aaaaaaaawpmkfazazz...4mmbqghjtyfyiw3b6mb4grqqtlta6pmemlevhq)
+baremetal_core_subnet.subnet: Refreshing state... (ID: ocid1.subnet.oc1.iad.aaaaaaaauyslqcp74b...drqlrn4r3dou7ejxxpz722styttola6whgxraa)
+baremetal_core_subnet.subnet: Refreshing state... (ID: ocid1.subnet.oc1.iad.aaaaaaaarzopbn6ofb...2xts6furvdtcdrfos4sce4zgu4iwwj4sem4qsq)
+baremetal_core_instance.monitoring-instance: Refreshing state... (ID: ocid1.instance.oc1.iad.abuwcljsjds76bhl...v3tnmphjlryr7wslyf4gjpojxlgaqls4fxxkga)
+baremetal_core_instance.logging-instance: Refreshing state... (ID: ocid1.instance.oc1.iad.abuwcljt4b2ysc67...dzdsfi37rfzip7nhsuqduzsusqpkdupg6qwu6q)
+baremetal_core_volume.block: Refreshing state... (ID: ocid1.volume.oc1.iad.abuwcljthdyvkircay...yiqhh4cmpn2zksq2jeodktdq6ttvanzdhe44oq)
+baremetal_core_volume_attachment.attach: Refreshing state... (ID: ocid1.volumeattachment.oc1.iad.abuwcljt...nu3sn57rhzkkwtb77u77cheaq4cpbcqnrwf5ga)
+baremetal_core_volume.block: Refreshing state... (ID: ocid1.volume.oc1.iad.abuwcljssvk6jdm6g7...tvxsqztjrwjmja6f35pvkxqujf3lork25l6aua)
+null_resource.remote-exec: Refreshing state... (ID: 1623513603947278960)
+baremetal_core_volume_attachment.attach: Refreshing state... (ID: ocid1.volumeattachment.oc1.iad.abuwcljs...h47o7gkkabpycofcp4grz4juef45hr3brxk5qa)
+null_resource.remote-exec: Refreshing state... (ID: 661638808556081118)
+
+------------------------------------------------------------------------
+
+No changes. Infrastructure is up-to-date.
+
+This means that Terraform did not detect any differences between your
+configuration and real physical resources that exist. As a result, no
+actions need to be performed.
