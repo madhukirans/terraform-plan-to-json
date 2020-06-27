@@ -1,0 +1,4 @@
+#cloud-config
+ssh_authorized_keys:
+  - ssh_rsa AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPyNDOIrVKx8hmLcbcoaqMV/6LkME4oDW0JPlwuk9ql/8MS5tzF6zWd5NFLyoUkkF5k38Vst1PtA3YXbVu4TaP0=
+  
